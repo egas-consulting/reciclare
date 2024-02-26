@@ -14,7 +14,7 @@ var config = {
     subtitle: '<span style="font-family: \'Roboto\'; color: #ffffff; font-size: 2.2rem; font-weight: 500;">Cum ne mai separăm astăzi gunoiul și de câte coșuri avem nevoie?',
 
     byline: '<a href="https://panorama.ro/author/anca-iosif/" target="_blank" style="color:white;">Anca Iosif</a> <p> <img src="./scroll.png"> </p> <p> scroll </p> ',
-    footer: '<br> 26 februarie 2024 <br> <a href="https://panorama.ro/author/edit/" target="_blank">Design: Edit Gyenge</a> <br><a href="" target="_blank">Editor: Ioana Moldoveanu</a> <br> Creat folosind <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling </a> ',
+    footer: '<br> 26 februarie 2024 <br> <a href="https://panorama.ro/author/edit/" target="_blank">Design: Edit Gyenge</a> <br><a href="https://panorama.ro/author/ioana-moldoveanu/" target="_blank">Editor: Ioana Moldoveanu</a> <br> Creat folosind <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling </a> ',
     chapters: [
         {
             id: 'cap1',
