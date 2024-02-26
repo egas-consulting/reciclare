@@ -10,8 +10,8 @@ var config = {
     theme: 'light',
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
-    title: '<span style="font-family:\'Roboto\'; font-weight: 300; padding: 0.2vh; border-radius: 10px; color: #ffffff; font-size: 1.3rem; display: block; margin-bottom: 2px;">Minighid pentru colectarea deșeurilor</span>',
-    subtitle: '<span style="font-family: \'Roboto\'; color: #ffffff; font-size: 2.3rem; font-weight: 500;">Cum ne mai separăm astăzi gunoiul și de câte coșuri avem nevoie?',
+    title: '<span style="font-family:\'Roboto\'; font-weight: 400; padding: 0.2vh; border-radius: 10px; color: #ffffff; font-size: 1.3rem; display: block; margin-bottom: 2px;">Minighid pentru colectarea deșeurilor</span>',
+    subtitle: '<span style="font-family: \'Roboto\'; color: #ffffff; font-size: 2.2rem; font-weight: 500;">Cum ne mai separăm astăzi gunoiul și de câte coșuri avem nevoie?',
 
     byline: '<a href="https://panorama.ro/author/anca-iosif/" target="_blank" style="color:white;">Anca Iosif</a> <p> <img src="./scroll.png"> </p> <p> scroll </p> ',
     footer: '<br> 26 februarie 2024 <br> <a href="https://panorama.ro/author/edit/" target="_blank">Design: Edit Gyenge</a> <br><a href="" target="_blank">Editor: Ioana Moldoveanu</a> <br> Creat folosind <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling </a> ',
@@ -65,8 +65,8 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Nu avem un sistem național de management al deșeurilor, așa că fiecare oraș și sector din București procedează după cum crede. În plus, urmează câteva luni de confuzie, din cauza noului Sistem de Garanție-Returnare (SGR). Din ianuarie 2024 ai început să plătești 50 de bani în plus la fiecare sticlă, doză și PET achiziționat, pe care îi recuperezi dacă reciclezi la automatele instalate în magazine. ',
-            overlayImage: 'blank.png',
+            description: 'Nu avem un sistem național de management al deșeurilor, așa că fiecare oraș și sector din București procedează după cum crede. În plus, urmează câteva luni de confuzie, din cauza <a href="https://panorama.ro/mize-sistem-garantie-returnare-obligatoriu-ambalaje/" target="_blank">noului Sistem de Garanție-Returnare (SGR).</a> Din ianuarie 2024 ai început să plătești 50 de bani în plus la fiecare sticlă, doză și PET achiziționat, pe care îi recuperezi dacă reciclezi la automatele instalate în magazine. ',
+            overlayImage: 'gen1.png',
             
             location: {
                 center: [12.02595, 49.90885],
@@ -114,7 +114,7 @@ var config = {
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
             description: 'Programul își propune să recupereze șapte miliarde de recipiente anual. Are însă reguli diferite față de cum colectai până acum și te obligă să facem spațiu în casă pentru încă un coș de gunoi.',
-            overlayImage: 'blank.png',
+            overlayImage: 'gen2.png',
             
             location: {
                 center: [12.02595, 49.90885],
@@ -162,7 +162,7 @@ var config = {
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
             description: '<i>Dar obiceiurile de consum și responsabilizarea cetățenilor și a autorităților nu se întâmplă peste noapte. <b>E un sistem care se reglează în câteva generații</b>”, subliniază pentru Panorama expertul Raul Pop.</i> ',
-            overlayImage: 'blank.png',           
+            overlayImage: 'gen3.png',           
             location: {
                 center: [12.02595, 49.90885],
                 zoom: 1,
@@ -205,7 +205,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Colectarea selectivă a deșeurilor va deveni însă o prioritate în următorii ani. Amenzile pentru sortarea gunoiului greșit vor începe să circule și la noi, odată cu răspândirea ghenelor inteligente, care vor monitoriza pubelele și consumul individual.  ',
+            description: 'Colectarea selectivă a deșeurilor va deveni însă o prioritate în următorii ani. Amenzile pentru sortarea gunoiului greșit vor începe să circule și la noi, odată cu răspândirea ghenelor inteligente, care <a href="https://www.aradon.ro/aradon-stirile-judetului-arad/cartele-electronice-de-acces-la-gunoiul-aradenilor-1469459/" target="_blank">vor monitoriza pubelele</a> și consumul individual.  ',
             overlayImage: 'reciclat.gif',           
             location: {
                 center: [12.02595, 49.90885],
@@ -251,8 +251,8 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Recuperarea gunoiului este o necesitate, în timp ce producem, la nivel global, peste 400 de tone de plastic pe an și consumăm un milion de sticle de plastic pe minut – fiecare român lasă anual 25 kilograme de plastic în urma sa. Cantitățile consumate s-ar putea dubla în anii ce vin, în condițiile în care am ajuns să avem avem plastic și în haine, și în mâncare, iar polimerii poluează sute de ani. În plus, depozitarea la groapă costă, deci nevoia de recuperare crește. ',
-            overlayImage: 'reciclat.gif',
+            description: 'Recuperarea gunoiului este o necesitate, în timp ce producem, la nivel global, <a href="https://www.un.org/sustainabledevelopment/blog/2023/08/explainer-what-is-plastic-pollution/" target="_blank">peste 400 de tone de plastic</a> pe an și consumăm <a href="https://www.plasticsoupfoundation.org/en/2017/07/the-worlds-population-consumes-1-million-plastic-bottles-every-minute/" target="_blank">un milion de sticle de plastic</a> un milion de sticle de plastic pe minut – fiecare român lasă anual <a href="https://panorama.ro/avalansa-plastic-romania-comert-deseuri/" target="_blank">25 kilograme de plastic</a> în urma sa. Cantitățile consumate <a href="https://www.plasticsoupfoundation.org/en/2017/07/the-worlds-population-consumes-1-million-plastic-bottles-every-minute/" target="_blank">s-ar putea dubla</a> în anii ce vin, în condițiile în care am ajuns să avem avem plastic și în <a href="https://scienceline.org/2022/09/a-look-into-the-plastic-inside-your-clothes/" target="_blank">haine,</a> și <a href="https://www.washingtonpost.com/climate-solutions/2024/01/12/microplastics-fish-chicken-tofu-protein/" target="_blank">în mâncare,</a>  iar polimerii poluează sute de ani. În plus, depozitarea la groapă costă, deci nevoia de recuperare crește. ',
+            overlayImage: 'gunoi.gif',
             
             location: {
                 center: [12.02595, 49.90885],
@@ -287,8 +287,8 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Aproape 40% dintre deșeuri au fost reciclate în UE în 2020. România însă, rămâne codașă în ultimii (mulți) ani, cu un procent de 11% incert, având în vedere că există diferențe mari între datele colectate și cele raportate de autoritățile române.  ',
-            overlayImage: 'blank.png',
+            description: 'Aproape 40% dintre deșeuri au fost reciclate în UE în 2020. România însă, rămâne codașă în ultimii (mulți) ani, cu un procent de 11% incert, având în vedere că <a href="https://recorder.ro/video-reciclarea-in-romania-haos-coruptie-si-incompetenta/" target="_blank">există diferențe mari între datele colectate și cele raportate de autoritățile române. </a> ',
+            overlayImage: 'gen4.png',
             
             location: {
                 center: [12.02595, 49.90885],
@@ -377,7 +377,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: '1. Pubela galbenă pentru deșeuri reciclabile, adică tot ce poate fi recuperat: plastic, metal, Tetra Pak, carton (în lipsa pubelei albastre și în măsura care ambalajul încape în sacul sau pubela galbenă – spre exemplu un ambalaj de la pasta de dinți etc.). Dacă ambalajul e curat – nu e îmbibat cu uleiuri, resturi de mâncare sau băuturi, aici intră și are o șansă spre reciclare.',
+            description: '1. <span style="color: #FFE11A; font-weight: bold;">Pubela galbenă</span> pentru deșeuri reciclabile, adică tot ce poate fi recuperat: plastic, metal, Tetra Pak, carton (în lipsa pubelei albastre și în măsura care ambalajul încape în sacul sau pubela galbenă – spre exemplu un ambalaj de la pasta de dinți etc.). Dacă ambalajul e curat – nu e îmbibat cu uleiuri, resturi de mâncare sau băuturi, aici intră și are o șansă spre reciclare.',
             overlayImage: 'galben.png',
             location: {
                 center: [12.02595, 49.90885],
@@ -410,7 +410,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: '2.Coșul pentru ambalajele SGR imprimate cu sigla programului, dacă vrei să-ți recapeți garanția de 50 de bani.',
+            description: '2.<span style="color: #ffffff; font-weight: bold;">Coșul pentru ambalajele SGR</span> imprimate cu sigla programului, dacă vrei să-ți recapeți garanția de 50 de bani.',
             overlayImage: 'sgr.png',
             location: {
                 center: [12.02595, 49.90885],
@@ -444,7 +444,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: '3.Pubela neagră sau ghena blocului pentru deșeuri menajere, adică tot ce nu poate fi reciclat și este în general, umed: resturi alimentare, scutece și ambalaje de unică folosință - ar trebui să fie cea mai „sărăcăcioasă” și mai mică pubelă din casă. ',
+            description: '3.<span style="color: #000000; font-weight: bold;">Pubela neagră</span> sau ghena blocului pentru deșeuri menajere, adică tot ce nu poate fi reciclat și este în general, umed: resturi alimentare, scutece și ambalaje de unică folosință - ar trebui să fie cea mai „sărăcăcioasă” și mai mică pubelă din casă. ',
             overlayImage: 'negru.png',
             location: {
                 center: [12.02595, 49.90885],
@@ -478,7 +478,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Pubela albastră pentru carton și cea verde pentru sticlă nu apar peste tot. În orașele mici sau în zonele cu vile și case cartonul e colectat separat sau vândut de oameni la reciclatori. Pubela maro pentru compost, care implică separarea și recuperarea resturilor alimentare, este și mai puțin implementată. În practică, gunoaiele de-aici tot la menajer și la groapă ajung.',
+            description: '<span style="color: #00819F; font-weight: bold;">Pubela albastră</span> pentru carton și <span style="color: #53FF96; font-weight: bold;">cea verde</span> pentru sticlă nu apar peste tot. În orașele mici sau în zonele cu vile și case cartonul e colectat separat sau vândut de oameni la reciclatori. Pubela maro pentru compost, care implică separarea și recuperarea resturilor alimentare, este și mai puțin implementată. În practică, gunoaiele de-aici tot la menajer și la groapă ajung.',
             overlayImage: 'albastru.png',
             location: {
                 center: [12.02595, 49.90885],
@@ -583,7 +583,7 @@ var config = {
             hidden: false,
             title: 'Ce se reciclează cu adevărat. ', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Nu totul ajunge la reciclare. Unele ambalaje, cum ar fi dopurile sticlelor de plastic, sunt prea mici ca să poată fi sortate. De aici și regula europeană care spune să nu mai separi sticla de dop. Cu cât deșeurile sunt mai voluminoase, cu atât au șanse mai mari să fie categorisite. O folie de plastic de câțiva metri poate fi reciclată, una de la pachetul de țigări nu. Pentru unele categorii de plastic nu avem tehnologie, așa că ele ajung la incinerare sau la fabrici de ciment, unde sunt transformate în energie.',
+            description: 'Nu totul ajunge la reciclare. Unele ambalaje, cum ar fi dopurile sticlelor de plastic, sunt prea mici ca să poată fi sortate. De aici și regula europeană care spune <a href="https://ec.europa.eu/commission/presscorner/detail/en/IP_19_2631" target="_blank">să nu mai separi sticla de dop.</a> Cu cât deșeurile sunt mai voluminoase, cu atât au șanse mai mari să fie categorisite. O folie de plastic de câțiva metri poate fi reciclată, una de la pachetul de țigări nu. Pentru unele categorii de plastic nu avem tehnologie, așa că ele ajung la incinerare sau la fabrici de ciment, unde sunt transformate în energie.',
             overlayImage: 'gunoi.gif',
             location: {
                 center: [12.02595, 49.90885],
@@ -692,7 +692,7 @@ var config = {
             title: 'Plastic non-SGR. ', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
             description: 'Pe lângă dozele și sticlele care nu au sigla SGR, pentru că încă nu s-au epuizat stocurile „vechi”, există ambalaje din plastic care nu intră în program, cum ar fi PET-urile de lapte, o sticlă de borș sau bidoanele peste trei litri. Pop crede însă că sistemul garanție-returnare va evolua și în timp acestea vor fi integrate în flux. ',
-            overlayImage: 'reciclat.gif',
+            overlayImage: 'reciclare.gif',
             showChart: false,
             location: {
                 center: [12.02595, 49.90885],
@@ -742,7 +742,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            overlayImage: 'reciclat.gif',
+            overlayImage: 'reciclare.gif',
             description: 'Până atunci, toate vor merge în continuare la pubela galbenă de reciclabile, cu dopul pus, după ce au fost clătite și aplatizate. Gândirea e una comunitară – încerci să ocupi cât mai puțin spațiu în pubela blocului, ca să aibă toată lumea loc. Altfel, „colectăm aer”, spune Raul Pop, manager de programe în cadrul ONG-ului Ecoteca. ',
             
             location: {
@@ -851,7 +851,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Din păcate, majoritatea vor ajunge la groapă, în lipsa unor tehnologii de reparații sau refolosire a acestora, dar sunt mici obiecte pe care le poți salva separat – sticlele de parfum pot fi colectate la Sephora. Altfel – nu uita că sticla e cel mai bun material în care-ți poți depozita mâncarea, așa că, înainte de toate, refolosește-o. ',
+            description: 'Din păcate, majoritatea vor ajunge la groapă, în lipsa unor tehnologii de reparații sau refolosire a acestora, dar sunt mici obiecte pe care le poți salva separat – sticlele de parfum <a href="https://www.facebook.com/100064710937555/posts/3336040063170322/" target="_blank">pot fi colectate la Sephora.</a> Altfel – nu uita că sticla e cel mai bun material în care-ți poți depozita mâncarea, așa că, înainte de toate, refolosește-o. ',
             overlayImage: 'sticla.png',
             location: {
                 center: [12.02595, 49.90885],
@@ -885,7 +885,7 @@ var config = {
             hidden: false,
             title: 'Cutiile Tetra Pak', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Cutiile Tetra Pak au în compoziție și carton, și plastic, și aluminiu, ceea ce le face unul dintre cele mai sofisticate ambalaje de pe piață. Se clătesc, se aplatizează, li se pune dopul și se aruncă în pubela galbenă. ',
+            description: '<a href="https://hartareciclarii.ro/material/tetrapak-cutii-de-lapte-suc/" target="_blank">Cutiile Tetra Pak</a> au în compoziție și carton, și plastic, și aluminiu, ceea ce le face unul dintre cele mai sofisticate ambalaje de pe piață. Se clătesc, se aplatizează, li se pune dopul și se aruncă în pubela galbenă. ',
             overlayImage: 'tetra.png',
             location: {
                 center: [12.02595, 49.90885],
@@ -1019,7 +1019,7 @@ var config = {
             hidden: false,
             title: 'Compostul', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Compostul include coji de legume, resturi alimentare și zaț de cafea, printre altele. Mixul ar putea fi transformat în bioenergie sau în pământ de flori. Avem o lege care încurajează compostarea la bloc, dar este un eșec. În cea mai mare parte a zonelor urbane nu există un sistem de colectare a resturilor „bio”, nici educație în sensul ăsta sau vreo pubelă în plus la scările de bloc.',
+            description: 'Compostul include coji de legume, resturi alimentare și zaț de cafea, printre altele. Mixul ar putea fi transformat în bioenergie sau în pământ de flori. <a href="https://www.dor.ro/asta-e-si-gunoiul-nostru/" target="_blank">Avem o lege</a> care încurajează compostarea la bloc, dar este un eșec. În cea mai mare parte a zonelor urbane nu există un sistem de colectare a resturilor „bio”, nici educație în sensul ăsta sau vreo pubelă în plus la scările de bloc.',
             overlayImage: 'compost.gif',
             location: {
                 center: [12.02595, 49.90885],
@@ -1086,7 +1086,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Au apărut și comunități care-și fac gropi și sisteme pentru compost în grădina blocului. Aceasta este o soluție și pentru cei care stau la casă și au curte. Ia însă timp să-nveți să prepari compost și să-l întreții, așa că încă este văzut ca o activitate specifică zonelor rurale, unde se face asta din timpuri vechi, pentru a scăpa de gunoi. ',
+            description: 'Au apărut și comunități care-și fac gropi și <a href="https://eeco.ro/detalii_informatii_despre_sustenabilitate/academia-de-compost-un-proiect-pentru-valorificarea-bio-de%C8%99eurilor-1700575874718x452354088484995100" target="_blank">sisteme pentru compost în grădina blocului.</a> Aceasta este o soluție și pentru cei care stau la casă și au curte. Ia însă timp să-nveți să prepari compost și să-l întreții, așa că încă este văzut ca o activitate specifică zonelor rurale, unde se face asta din timpuri vechi, pentru a scăpa de gunoi. ',
             overlayImage: 'compost.png',
             location: {
                 center: [12.02595, 49.90885],
@@ -1188,7 +1188,7 @@ var config = {
             hidden: false,
             title: 'Mobila și materialele de construcții.', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Prin lege, autoritățile locale sunt obligate să asigure un loc unde să te debarasezi de ele gratuit. Se numește Centru de aport voluntar, iar prin PNRR ar trebui să avem gata vreo 250, până în toamna acestui an. Momentan, doar câteva sunt funcționale. La Iași și la Oradea oamenii pot lăsa gratuit de la soluții toxice precum resturi de vopsea, până la mobilă sau textile. ',
+            description: 'Prin lege, autoritățile locale sunt obligate să asigure un loc unde să te debarasezi de ele gratuit. Se numește Centru de aport voluntar, iar prin PNRR ar trebui să <a href="https://ecoteca.ro/cum-vor-arata-centrele-de-colectare-cu-aport-voluntar-cav-finantate-prin-pnrr.html" target="_blank">avem gata vreo 250,</a> până în toamna acestui an. Momentan, doar câteva sunt funcționale. La Iași și la Oradea oamenii pot lăsa gratuit de la soluții toxice precum resturi de vopsea, până la mobilă sau textile. ',
             overlayImage: 'mobila.png',
             location: {
                 center: [12.02595, 49.90885],
@@ -1256,7 +1256,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Resturile de textilele și bureți sunt incinerate la fabricile de ciment. Înlocuiesc, astfel, combustibili clasici precum petrolul și cărbunele. Ca soluție temporară, poate ajută să știi că la Ikea poți vinde din mobila folosită și poți cumpăra obiecte cu mici defecte sau second-hand, la prețuri mai mici, prin Atelierul de circularitate. ',
+            description: 'Resturile de textilele și bureți sunt incinerate la fabricile de ciment. Înlocuiesc, astfel, combustibili clasici precum petrolul și cărbunele. Ca soluție temporară, poate ajută să știi că la Ikea poți <a href="https://www.ikea.com/ro/ro/customer-service/services/buy-back/" target="_blank">vinde</a> din mobila folosită și poți cumpăra obiecte cu mici defecte sau second-hand, la prețuri mai mici, prin <a href="https://www.ikea.com/ro/ro/stores/circular-hub-pub1d9516e1" target="_blank">Atelierul de circularitate.</a> ',
             overlayImage: 'mobila.png',
             location: {
                 center: [12.02595, 49.90885],
@@ -1324,7 +1324,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Pentru cele mari, precum o mașină de spălat, urmărește campaniile de ridicare gratuită organizate de agenții de salubritate sau de privați de-a lungul anului. În anumite zone le preiau și gratuit, la cerere, dacă depășesc câteva zeci de kilograme. Dacă îți cumperi un frigider nou, beneficiezi de o reducere în schimbul celui vechi.  ',
+            description: 'Pentru cele mari, precum o mașină de spălat, urmărește campaniile de ridicare gratuită organizate de agenții de salubritate sau de privați de-a lungul anului. În anumite zone le preiau și gratuit, la cerere, dacă depășesc <a href="https://www.ecotic.ro/predare-deseuri-electrice-pf/" target="_blank">câteva zeci de kilograme.</a> Dacă îți cumperi un frigider nou, beneficiezi de o reducere în schimbul celui vechi.  ',
             overlayImage: 'electrice1.png',
             location: {
                 center: [12.02595, 49.90885],
@@ -1392,7 +1392,7 @@ var config = {
             hidden: false,
             title: 'Hainele', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Nu avem o industrie de reciclare a textilelor. Ca să scapi de hainele pe care nu le mai vrei, donează-le pe grupuri dedicate de Facebook, precum Free Cycle. Sau debarasează-le în containerele de haine amplasate pentru comunitățile vulnerabile, în unele orașe. În București, le poți dona la Centrul de economie circulară, un proiect al Direcției Generale de Asistenșță Socială București și Asociația Eco Durabil. ',
+            description: 'Nu avem o industrie de reciclare a textilelor. Ca să scapi de hainele pe care nu le mai vrei, donează-le pe grupuri dedicate de Facebook, precum Free Cycle. Sau debarasează-le în containerele de haine amplasate pentru comunitățile vulnerabile, în unele orașe. În București, le poți dona la <a href="https://omanadeajutor.eu/despre-proiect-2/" target="_blank">Centrul de economie circulară,</a> un proiect al Direcției Generale de Asistenșță Socială București și Asociația Eco Durabil. ',
             overlayImage: 'haine.png',
             location: {
                 center: [12.02595, 49.90885],
@@ -1460,7 +1460,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Alte soluții pe care le poți aplica pentru combaterea fast-fashion sunt închirierea ținutelor de ocazie, de brand, garderoba capsulă sau shopping mai puțin, dar de o calitate superioară. Participă și tu la #NoNewClothes Challenge.  ',
+            description: 'Alte soluții pe care le poți aplica pentru combaterea fast-fashion sunt închirierea ținutelor de ocazie, <a href="https://www.dressbox.ro/" target="_blank">de brand</a>, <a href="https://fainsisimplu.ro/garderoba-capsula-ce-este-ce-beneficii-are-2789.html" target="_blank">garderoba capsulă</a> sau shopping mai puțin, dar de o calitate superioară. Participă și tu la <a href="https://remake.world/2023nonewclothes/" target="_blank">#NoNewClothes Challenge.</a>  ',
             overlayImage: 'haine.png',
             location: {
                 center: [12.02595, 49.90885],
@@ -1528,7 +1528,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'De la finalul lui 2023, pot fi duse în spitale – atât de stat cât și private –, unde deja se colectează și se distrug medicamente. Nu le mai poți duce în farmacii de anul acesta, cum se întâmpla înainte de această reglementare.',
+            description: 'De la finalul lui 2023, <a href="https://www.avocatnet.ro/articol_62470/E-oficial-Medicamentele-expirate-vor-putea-fi-predate-la-spitale-care-se-vor-ocupa-de-eliminarea-lor.html" target="_blank">pot fi duse în spitale</a> – atât de stat cât și private –, unde deja se colectează și se distrug medicamente. Nu le mai poți duce în farmacii de anul acesta, cum se întâmpla înainte de această reglementare.',
             overlayImage: 'medicamente.png',
             location: {
                 center: [12.02595, 49.90885],
@@ -1562,7 +1562,7 @@ var config = {
             hidden: false,
             title: 'Nereciclabilele.', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Există multe gunoaie dăunătoare mediului și imposibil de reciclat, cum ar fi lacul de unghii, brichetele, scutecele și absorbantele sau majoritatea sprayurilor. Ia în considerare variantele reutilizabile ale acestor produse – avem astăzi chiloți menstruali și scutece refolosibile, precum și deodorante solide ambalate în carton. ',
+            description: 'Există multe gunoaie dăunătoare mediului și imposibil de reciclat, cum ar fi <a href="https://lionrecycle.ro/poluare-cosmetice-lacul-de-unghii-si-efectele-asupra-mediului/" target="_blank">lacul de unghii,</a> brichetele, scutecele și absorbantele sau majoritatea sprayurilor. Ia în considerare variantele reutilizabile ale acestor produse – avem astăzi chiloți menstruali și scutece refolosibile, precum și deodorante solide ambalate în carton. ',
             overlayImage: 'nereciclabile.png',
             location: {
                 center: [12.02595, 49.90885],
@@ -1698,7 +1698,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Au apărut multe ateliere de reparații – Flip recondiționează și vinde telefoane second hand. Există din ce în ce mai multe magazine zero waste, care vând produse vrac, în recipientele cu care vii de-acasă, pentru a reduce cantitatea de ambalaje. ',
+            description: 'Au apărut multe ateliere de reparații – <a href="https://flip.ro/" target="_blank">Flip</a> recondiționează și vinde telefoane second hand. Există <a href="https://gaianca.ro/magazine-zero-waste-in-romania/" target="_blank">din ce în ce mai multe</a> magazine zero waste, care vând produse vrac, în recipientele cu care vii de-acasă, pentru a reduce cantitatea de ambalaje. ',
             overlayImage: 'circularitate.png',
             location: {
                 center: [12.02595, 49.90885],

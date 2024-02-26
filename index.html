@@ -21,7 +21,7 @@
     }
 
         a, a:hover, a:visited {
-            color: #000000;
+            color: #f1fcb5;
         }
         #map {
             top:0;
@@ -210,6 +210,28 @@
             height: 100vh; /* Adjust based on your needs */
         }
 
+        #iconMenuContainer {
+            position: fixed;
+            top: 0;
+            right: 0;
+            z-index: 2000; /* Ensure it's on top */
+            text-align: right;
+            padding-top: 10px; /* Adjust as needed */
+            background-color: rgba(0,0,0,0.5); /* Optional: for better visibility */
+            width: 100%; /* Ensures full width */
+        }
+
+        #iconMenuContainer p {
+            color: white;
+            margin-right: 10px; /* Ensure it doesn't stick to the edge */
+        }
+
+        @media (max-width: 768px) {
+            #iconMenuContainer p {
+                font-size: 14px; /* Smaller text on smaller screens */
+            }
+        }
+
         </style>
 </head>
 <body>
@@ -219,9 +241,18 @@
 <div id="imageOverlay">
     <img id="fullscreenImage" src="blank.png" >
 </div>
-</div>
+
 <div id="mapInset"></div>
 <div id="story"></div>
+<div style="position: fixed; top: 10px; right: 10px; z-index: 1000; text-align: right;">
+    <p style="margin: 0 0 30px; color: white;">Click pe tipul de pubelă pentru detalii</p></div>
+
+    <div id="iconMenu" style="position: fixed; top: 40px; right: 10px; z-index: 1000;">
+    <a href="#cap13galben" title="pubela galbena"><img src="pubgalben.png" alt="Pubela galbenă"></a>
+    <a href="#cap13sgr" title="Pubela sgr"><img src="pubsgr.png" alt="Pubela sgr"></a>
+    <a href="#cap14" title="Pubela neagra"><img src="pubnegru.png" alt="Pubela neagra"></a>
+    <a href="#cap15" title="Pubela albastra"><img src="pubalbastra.png" alt="Pubela albastra"></a>
+</div>
 
 <div id="horizontalScrollSection" class="horizontal-scroll">
     <div id="horizontalContent"></div> <!-- This will hold the horizontally scrolling content -->
@@ -592,6 +623,19 @@
         imageOverlayDiv.style.display = 'none';
     });
 
+    document.querySelectorAll('#iconMenu a').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+
+
+
     // Adjusting scrollama offset to center the active chapter
     window.addEventListener('resize', () => {
         scroller.resize();
@@ -599,3 +643,4 @@
 </script>
 </body>
 </html>
+        
