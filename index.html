@@ -253,6 +253,18 @@
             }
         }
 
+        .anchor-target {
+            padding-top: 100px; /* Height of your fixed header */
+            margin-top: -100px; /* Negative value of the same size */
+            display: block; /* Ensure this element is treated as a block-level element */
+        }
+
+        #cap13galben, #cap13sgr, #cap14, #cap15, #cap15maro {
+            padding-top: 160px; /* Height of your fixed header */
+            margin-top: -100px; /* Negative value of the same size */
+            display: block; /* Ensure this element is treated as a block-level element */
+        }
+
         </style>
 </head>
 <body>
@@ -647,15 +659,29 @@
         imageOverlayDiv.style.display = 'none';
     });
 
-    document.querySelectorAll('#iconMenu a').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
+    document.addEventListener('DOMContentLoaded', (event) => {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            let targetId = this.getAttribute('href');
+            let targetElement = document.querySelector(targetId);
 
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
+            if (targetElement) {
+                // Calculate the position to scroll to, accounting for the fixed header
+                const headerOffset = 100; // Adjust this to the height of your fixed header
+                const elementPosition = targetElement.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            }
         });
     });
 });
+
+
 
 
 

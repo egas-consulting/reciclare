@@ -161,7 +161,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: '<i>Dar obiceiurile de consum și responsabilizarea cetățenilor și a autorităților nu se întâmplă peste noapte. <b>E un sistem care se reglează în câteva generații</b>”, </i> subliniază pentru Panorama expertul în managementul deșeurilor Raul Pop. ',
+            description: '<i>„Dar obiceiurile de consum și responsabilizarea cetățenilor și a autorităților nu se întâmplă peste noapte. <b>E un sistem care se reglează în câteva generații</b>”, </i> subliniază pentru Panorama expertul în managementul deșeurilor Raul Pop. ',
             overlayImage: 'gen3.png',           
             location: {
                 center: [12.02595, 49.90885],
