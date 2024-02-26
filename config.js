@@ -10,7 +10,7 @@ var config = {
     theme: 'light',
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
-    title: '<span style="font-family:\'Roboto\'; font-weight: 400; padding: 0.2vh; border-radius: 10px; color: #ffffff; font-size: 1.3rem; display: block; margin-bottom: 2px;">Minighid pentru colectarea deșeurilor</span>',
+    title: '<span style="font-family:\'Roboto\'; font-weight: 400; padding: 5vh 0.2vh 0.2vh 0.2vh; border-radius: 10px; color: #ffffff; font-size: 1.3rem; display: block; margin-bottom: 2px;">Minighid pentru colectarea deșeurilor</span>',
     subtitle: '<span style="font-family: \'Roboto\'; color: #ffffff; font-size: 2.2rem; font-weight: 500;">Cum ne mai separăm astăzi gunoiul și de câte coșuri avem nevoie?',
 
     byline: '<a href="https://panorama.ro/author/anca-iosif/" target="_blank" style="color:white;">Anca Iosif</a> <p> <img src="./scroll.png"> </p> <p> scroll </p> ',
@@ -370,7 +370,7 @@ var config = {
 
         
         {
-            id: 'cap13.2',
+            id: 'cap13galben',
             daysAgo: 430,
             showTimeline: false,
             alignment: 'center',
@@ -403,7 +403,7 @@ var config = {
             ]
         },
         {
-            id: 'cap13.3',
+            id: 'cap13sgr',
             daysAgo: 430,
             showTimeline: false,
             alignment: 'center',
