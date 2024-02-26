@@ -161,7 +161,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: '<i>Dar obiceiurile de consum și responsabilizarea cetățenilor și a autorităților nu se întâmplă peste noapte. <b>E un sistem care se reglează în câteva generații</b>”, </i> subliniază pentru Panorama <b>expertul în managementul deșeurilor</b> Raul Pop. ',
+            description: '<i>Dar obiceiurile de consum și responsabilizarea cetățenilor și a autorităților nu se întâmplă peste noapte. <b>E un sistem care se reglează în câteva generații</b>”, </i> subliniază pentru Panorama expertul în managementul deșeurilor Raul Pop. ',
             overlayImage: 'gen3.png',           
             location: {
                 center: [12.02595, 49.90885],
@@ -377,7 +377,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: '<span style="background-color: #F4B80F; color: white; font-weight: bold; padding: 5px;"><span style="background-color: #F4B80F; color: white; font-weight: bold; padding: 5px;">Pubela galbenă</span></span> pentru deșeuri reciclabile, adică tot ce poate fi recuperat: plastic, metal, Tetra Pak, carton (în lipsa pubelei albastre și în măsura care ambalajul încape în sacul sau <span style="background-color: #F4B80F; color: white; font-weight: bold; padding: 5px;">pubela galbenă</span> – spre exemplu un ambalaj de la pasta de dinți etc.). Dacă ambalajul e curat – nu e îmbibat cu uleiuri, resturi de mâncare sau băuturi, aici intră și are o șansă spre reciclare.',
+            description: '<span style="background-color: #F4B80F; color: white; font-weight: bold; padding: 5px;"><span style="background-color: #F4B80F; color: white; font-weight: bold; padding: 5px;">Pubela galbenă</span></span> pentru deșeuri reciclabile, adică tot ce poate fi recuperat: plastic, metal, Tetra Pak, carton (în lipsa pubelei albastre și în măsura în care ambalajul încape în sacul sau <span style="background-color: #F4B80F; color: white; font-weight: bold; padding: 5px;">pubela galbenă</span> – spre exemplu un ambalaj de carton de la pasta de dinți etc.). Dacă ambalajul e curat – nu e îmbibat cu uleiuri, resturi de mâncare sau băuturi, aici intră și are o șansă spre reciclare.',
             overlayImage: 'galben.png',
             location: {
                 center: [12.02595, 49.90885],
@@ -544,7 +544,7 @@ var config = {
             showTimeline: false,
             alignment: 'center',
             hidden: false,
-            title: 'Cum se ridică gunoiul. ', // Consider adding a title if needed
+            title: 'Cum se ridică gunoiul ', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
             description: 'În majoritatea orașelor vine o mașină pentru deșeurile menajere și o alta pentru reciclabile. Ambalajele uscate sunt luate „la grămadă”, ceea ce este corect, atâta vreme cât sunt uscate și curate în interior. Ele ajung pe o bandă de sortare, unde mai multe persoane (dar și tehnologia) le vor categorisi în funcție de tipul de material din care sunt făcute. Dacă sunt amestecate cu resturi alimentare, lucrătorii de la salubritate tot vor trebui să le ridice și să le ducă la bandă. ',
             overlayImage: 'reciclare.gif',
@@ -578,7 +578,7 @@ var config = {
             showTimeline: false,
             alignment: 'center',
             hidden: false,
-            title: 'Spălarea ambalajelor.', // Consider adding a title if needed
+            title: 'Spălarea ambalajelor', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
             description: 'Nu scrie asta nicăieri, „dar e o treabă de bun simț”, spune Raul Pop. E neplăcut să se îmbine resturile unei conserve cu diverse lichide, atât pentru coșul tău de reciclabile, cât și pentru cei care sortează gunoiul. În plus, lichidele compromit anumite materiale, precum cartonul.',
             overlayImage: 'spalare.png',
@@ -615,7 +615,7 @@ var config = {
             showTimeline: false,
             alignment: 'center',
             hidden: false,
-            title: 'Ce se reciclează cu adevărat. ', // Consider adding a title if needed
+            title: 'Ce se reciclează cu adevărat ', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
             description: 'Nu totul ajunge la reciclare. Unele ambalaje, cum ar fi dopurile sticlelor de plastic, sunt prea mici ca să poată fi sortate. De aici și regula europeană care spune <a href="https://ec.europa.eu/commission/presscorner/detail/en/IP_19_2631" target="_blank">să nu mai separi sticla de dop.</a> Cu cât deșeurile sunt mai voluminoase, cu atât au șanse mai mari să fie categorisite. O folie de plastic de câțiva metri poate fi reciclată, una de la pachetul de țigări nu. Pentru unele categorii de plastic nu avem tehnologie, așa că ele ajung la incinerare sau la fabrici de ciment, unde sunt transformate în energie.',
             overlayImage: 'gunoi.gif',
@@ -650,7 +650,7 @@ var config = {
             showTimeline: true,
             alignment: 'center',
             hidden: false,
-            title: 'Viitorul PET-ului.', // Consider adding a title if needed
+            title: 'Viitorul PET-ului', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
             description: ' Plătești 50 de bani în plus pe sticlele din plastic, marcate cu logoul Sistemului de Garanție-Returnare (SGR). Măsura e în vigoare de la finalul lui 2023. Îți vei primi banii înapoi când returnezi recipientele în aparatele speciale deja instalate de hipermarketuri în interior sau în parcare. Trebuie să le duci goale, curate, nedeformate, cu eticheta pe care se află logoul, intactă.',
             overlayImage: 'plastic.gif',
@@ -688,7 +688,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Aparatul turtește ambalajele, apoi emite un voucher. Deși poți returna PET-urile în alt magazin decât cel de unde le-ai cumpărat, voucherul îl poți cheltui doar unde returnezi sticlele. Ele pot fi în continuare reciclate și la <span style="background-color: #F4B80F; color: white; font-weight: bold; padding: 5px;">pubela galbenă</span>, doar că pierzi banii de garanție.. Dozele de aluminiu vor trece și ele în sistemul SGR, cu aceleași reguli ca pentru PET-uri și de preferat cu cheița culcată. ',
+            description: 'Aparatul turtește ambalajele, apoi emite un voucher. Deși poți returna PET-urile în alt magazin decât cel de unde le-ai cumpărat, voucherul îl poți cheltui doar unde returnezi sticlele. Ele pot fi în continuare reciclate și la <span style="background-color: #F4B80F; color: white; font-weight: bold; padding: 5px;">pubela galbenă</span>, doar că pierzi banii de garanție. Dozele de aluminiu vor trece și ele în sistemul SGR, cu aceleași reguli ca pentru PET-uri și de preferat cu cheița culcată. ',
             overlayImage: 'plastic.gif',
             
             location: {
@@ -723,7 +723,7 @@ var config = {
             showTimeline: true,
             alignment: 'center',
             hidden: false,
-            title: 'Plastic non-SGR. ', // Consider adding a title if needed
+            title: 'Plastic non-SGR ', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
             description: 'Pe lângă dozele și sticlele care nu au sigla SGR, pentru că încă nu s-au epuizat stocurile „vechi”, există ambalaje din plastic care nu intră în program, cum ar fi PET-urile de lapte, o sticlă de borș sau bidoanele peste trei litri. Pop crede însă că sistemul garanție-returnare va evolua și în timp acestea vor fi integrate în flux. ',
             overlayImage: 'reciclare.gif',
@@ -789,17 +789,17 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                {
-                    layer: 'data-driven-circles',
-                    opacity: 1,
-                    duration: 2000
-                }
+                // {
+                //     layer: 'data-driven-circles',
+                //     opacity: 1,
+                //     duration: 2000
+                // }
             ],
             onChapterExit: [
-                {
-                    layer: 'data-driven-circles',
-                    opacity: 0
-                }
+                // {
+                //     layer: 'data-driven-circles',
+                //     opacity: 0
+                // }
             ]
         },
 
@@ -986,7 +986,7 @@ var config = {
             hidden: false,
             title: 'Uleiul folosit la gătit', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Uleiul folosit la gătit nu trebuie scurs niciodată în chiuvetă. Când ajunge în țevi, se răcește, se solidifică și blochează trecerea apei. Devine o problemă pentru stațiile de epurare, care sunt proiectate să trateze deșeuri organice. Lasă-l să se răcească, strecoară-l de resturi alimentare și depozitează-l în sticle de plastic care nu se sparg la transport.',
+            description: 'Uleiul folosit la gătit nu trebuie scurs niciodată în chiuvetă. Când ajunge în țevi, se răcește, se întărește și blochează trecerea apei. Devine o problemă pentru stațiile de epurare, care sunt proiectate să trateze deșeuri organice. Lasă-l să se răcească, strecoară-l de resturi alimentare și depozitează-l în sticle de plastic care nu se sparg la transport.',
             overlayImage: 'ulei.png',
             location: {
                 center: [12.02595, 49.90885],
@@ -1154,7 +1154,7 @@ var config = {
             hidden: false,
             title: 'Ambalajele de unică folosință', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Ambalajele de unică folosință sunt interzise de peste cinci ani, conform normelor europene: punguța aia cu care insistă piețarii - cea mai pasibilă de a fi luată de vânt -, tacâmuri și paie din plastic, caserole din polistiren. În România încă se folosesc fără repercusiuni, deși în locul lor au apărut variante „compostabile” - lanțurile din HoReCa care se respectă au trecut la paie din carton. Ele rămân însă de unică folosință, în lipsa unui sistem de compostare. ',
+            description: 'Ambalajele de unică folosință sunt interzise de peste cinci ani, conform normelor europene: punguța aia cu care insistă piețarii - cea mai pasibilă de a fi luată de vânt -, tacâmuri și paie din plastic, caserole din polistiren. În România încă se folosesc fără repercusiuni, deși în locul lor au apărut variante „compostabile”.',
             overlayImage: 'unica.png',
             location: {
                 center: [12.02595, 49.90885],
@@ -1188,7 +1188,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Nu pot fi puse la pubelele pentru reciclare, dar reprezintă un pas înainte, pentru că se descompun mai repede, la fel ca punga din amidon.',
+            description: 'Lanțurile din HoReCa care se respectă au trecut la paie din carton. Ele rămân însă de unică folosință, în lipsa unui sistem de compostare. Nu pot fi puse la pubelele pentru reciclare, dar reprezintă un pas înainte, pentru că se descompun mai repede, la fel ca punga din amidon.',
             overlayImage: 'unica.png',
             location: {
                 center: [12.02595, 49.90885],
@@ -1220,7 +1220,7 @@ var config = {
             showTimeline: false,
             alignment: 'center',
             hidden: false,
-            title: 'Mobila și materialele de construcții.', // Consider adding a title if needed
+            title: 'Mobila și materialele de construcții', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
             description: 'Prin lege, autoritățile locale sunt obligate să asigure un loc unde să te debarasezi de ele gratuit. Se numește Centru de aport voluntar, iar prin PNRR ar trebui să <a href="https://ecoteca.ro/cum-vor-arata-centrele-de-colectare-cu-aport-voluntar-cav-finantate-prin-pnrr.html" target="_blank">avem gata vreo 250,</a> până în toamna acestui an. Momentan, doar câteva sunt funcționale. La Iași și la Oradea oamenii pot lăsa gratuit de la soluții toxice precum resturi de vopsea, până la mobilă sau textile. ',
             overlayImage: 'mobila.png',
@@ -1426,7 +1426,7 @@ var config = {
             hidden: false,
             title: 'Hainele', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Nu avem o industrie de reciclare a textilelor. Ca să scapi de hainele pe care nu le mai vrei, donează-le pe grupuri dedicate de Facebook, precum Free Cycle. Sau debarasează-le în containerele de haine amplasate pentru comunitățile vulnerabile, în unele orașe. În București, le poți dona la <a href="https://omanadeajutor.eu/despre-proiect-2/" target="_blank">Centrul de economie circulară,</a> un proiect al Direcției Generale de Asistenșță Socială București și Asociația Eco Durabil. ',
+            description: 'Nu avem o industrie de reciclare a textilelor. Ca să scapi de hainele pe care nu le mai vrei, donează-le pe grupuri dedicate de Facebook, precum Free Cycle. Sau debarasează-le în containerele de haine amplasate pentru comunitățile vulnerabile, în unele orașe. În București, le poți dona la <a href="https://omanadeajutor.eu/despre-proiect-2/" target="_blank">Centrul de economie circulară,</a> un proiect al Direcției Generale de Asistență Socială București și Asociația Eco Durabil. ',
             overlayImage: 'haine.png',
             location: {
                 center: [12.02595, 49.90885],
@@ -1594,7 +1594,7 @@ var config = {
             showTimeline: false,
             alignment: 'center',
             hidden: false,
-            title: 'Nereciclabilele.', // Consider adding a title if needed
+            title: 'Nereciclabilele', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
             description: 'Există multe gunoaie dăunătoare mediului și imposibil de reciclat, cum ar fi <a href="https://lionrecycle.ro/poluare-cosmetice-lacul-de-unghii-si-efectele-asupra-mediului/" target="_blank">lacul de unghii,</a> brichetele, scutecele și absorbantele sau majoritatea sprayurilor. Ia în considerare variantele reutilizabile ale acestor produse – avem astăzi chiloți menstruali și scutece refolosibile, precum și deodorante solide ambalate în carton. ',
             overlayImage: 'nereciclabile.png',
@@ -1664,7 +1664,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: '„Este necesar să ne schimbăm obiceiurile de consum: să împrumutăm, să închiriem, să folosim în comun, să refolosim, să reparăm. Adică să adoptăm tot mai mult un stil de viață bazat pe o economie circulară”, explică specialistul Raul Pop. ',
+            description: 'Este necesar să ne schimbăm obiceiurile de consum: să împrumutăm, să închiriem, să folosim în comun, să refolosim, să reparăm. Adică să adoptăm tot mai mult un stil de viață bazat pe o economie circulară, explică specialistul Raul Pop. ',
             overlayImage: 'circularitate.png',
             location: {
                 center: [12.02595, 49.90885],
