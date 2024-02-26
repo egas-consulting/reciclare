@@ -65,7 +65,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Nu avem un sistem național de management al deșeurilor, așa că fiecare oraș și sector din București procedează după cum crede. În plus, urmează câteva luni de confuzie, din cauza <a href="https://panorama.ro/mize-sistem-garantie-returnare-obligatoriu-ambalaje/" target="_blank">noului Sistem de Garanție-Returnare (SGR).</a> Din ianuarie 2024 ai început să plătești 50 de bani în plus la fiecare sticlă, doză și PET achiziționat, pe care îi recuperezi dacă reciclezi la automatele instalate în magazine. ',
+            description: 'Nu avem un sistem național de management al deșeurilor, așa că fiecare oraș și sector din București procedează după cum crede. În plus, urmează câteva luni de confuzie, din cauza <a href="https://panorama.ro/mize-sistem-garantie-returnare-obligatoriu-ambalaje/" target="_blank">noului Sistem de Garanție-Returnare (SGR).</a> Din ianuarie 2024 ai început să plătești 50 de bani în plus la fiecare sticlă, doză și PET achiziționat, pe care îi recuperezi dacă vei colecta separat la automatele instalate în magazine. ',
             overlayImage: 'gen1.png',
             
             location: {
@@ -113,7 +113,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Programul își propune să recupereze șapte miliarde de recipiente anual. Are însă reguli diferite față de cum colectai până acum și te obligă să facem spațiu în casă pentru încă un coș de gunoi.',
+            description: 'Programul își propune să recupereze șapte miliarde de recipiente anual. Are însă reguli diferite față de cum colectai până acum și te obligă să faci spațiu în casă pentru încă un coș de gunoi.',
             overlayImage: 'gen2.png',
             
             location: {
@@ -161,7 +161,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: '<i>Dar obiceiurile de consum și responsabilizarea cetățenilor și a autorităților nu se întâmplă peste noapte. <b>E un sistem care se reglează în câteva generații</b>”, subliniază pentru Panorama expertul Raul Pop.</i> ',
+            description: '<i>Dar obiceiurile de consum și responsabilizarea cetățenilor și a autorităților nu se întâmplă peste noapte. <b>E un sistem care se reglează în câteva generații</b>”, </i> subliniază pentru Panorama <b>expertul în managementul deșeurilor</b> Raul Pop. ',
             overlayImage: 'gen3.png',           
             location: {
                 center: [12.02595, 49.90885],
@@ -205,7 +205,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Colectarea selectivă a deșeurilor va deveni însă o prioritate în următorii ani. Amenzile pentru sortarea gunoiului greșit vor începe să circule și la noi, odată cu răspândirea ghenelor inteligente, care <a href="https://www.aradon.ro/aradon-stirile-judetului-arad/cartele-electronice-de-acces-la-gunoiul-aradenilor-1469459/" target="_blank">vor monitoriza pubelele</a> și consumul individual.  ',
+            description: 'Colectarea selectivă a deșeurilor va deveni însă o prioritate în următorii ani. Amenzile pentru sortarea greșită a gunoiului vor începe să circule și la noi, odată cu răspândirea ghenelor inteligente, care <a href="https://www.aradon.ro/aradon-stirile-judetului-arad/cartele-electronice-de-acces-la-gunoiul-aradenilor-1469459/" target="_blank">vor monitoriza pubelele</a> și consumul individual.  ',
             overlayImage: 'reciclat.gif',           
             location: {
                 center: [12.02595, 49.90885],
@@ -251,7 +251,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Recuperarea gunoiului este o necesitate, în timp ce producem, la nivel global, <a href="https://www.un.org/sustainabledevelopment/blog/2023/08/explainer-what-is-plastic-pollution/" target="_blank">peste 400 de tone de plastic</a> pe an și consumăm <a href="https://www.plasticsoupfoundation.org/en/2017/07/the-worlds-population-consumes-1-million-plastic-bottles-every-minute/" target="_blank">un milion de sticle de plastic</a> un milion de sticle de plastic pe minut – fiecare român lasă anual <a href="https://panorama.ro/avalansa-plastic-romania-comert-deseuri/" target="_blank">25 kilograme de plastic</a> în urma sa. Cantitățile consumate <a href="https://www.plasticsoupfoundation.org/en/2017/07/the-worlds-population-consumes-1-million-plastic-bottles-every-minute/" target="_blank">s-ar putea dubla</a> în anii ce vin, în condițiile în care am ajuns să avem avem plastic și în <a href="https://scienceline.org/2022/09/a-look-into-the-plastic-inside-your-clothes/" target="_blank">haine,</a> și <a href="https://www.washingtonpost.com/climate-solutions/2024/01/12/microplastics-fish-chicken-tofu-protein/" target="_blank">în mâncare,</a>  iar polimerii poluează sute de ani. În plus, depozitarea la groapă costă, deci nevoia de recuperare crește. ',
+            description: 'Recuperarea gunoiului este o necesitate, în timp ce producem, la nivel global, <a href="https://www.un.org/sustainabledevelopment/blog/2023/08/explainer-what-is-plastic-pollution/" target="_blank">peste 400 de tone de plastic</a> pe an și consumăm <a href="https://www.plasticsoupfoundation.org/en/2017/07/the-worlds-population-consumes-1-million-plastic-bottles-every-minute/" target="_blank">un milion de sticle de plastic</a> pe minut – fiecare român lasă anual <a href="https://panorama.ro/avalansa-plastic-romania-comert-deseuri/" target="_blank">25 kilograme de plastic</a> în urma sa. Cantitățile consumate <a href="https://www.plasticsoupfoundation.org/en/2017/07/the-worlds-population-consumes-1-million-plastic-bottles-every-minute/" target="_blank">s-ar putea dubla</a> în anii ce vin, în condițiile în care am ajuns să avem avem plastic și în <a href="https://scienceline.org/2022/09/a-look-into-the-plastic-inside-your-clothes/" target="_blank">haine,</a> și <a href="https://www.washingtonpost.com/climate-solutions/2024/01/12/microplastics-fish-chicken-tofu-protein/" target="_blank">în mâncare,</a>  iar polimerii poluează sute de ani. În plus, depozitarea la groapă costă, deci nevoia de recuperare crește. ',
             overlayImage: 'gunoi.gif',
             
             location: {
@@ -377,7 +377,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: '1. <span style="color: #FFE11A; font-weight: bold;">Pubela galbenă</span> pentru deșeuri reciclabile, adică tot ce poate fi recuperat: plastic, metal, Tetra Pak, carton (în lipsa pubelei albastre și în măsura care ambalajul încape în sacul sau pubela galbenă – spre exemplu un ambalaj de la pasta de dinți etc.). Dacă ambalajul e curat – nu e îmbibat cu uleiuri, resturi de mâncare sau băuturi, aici intră și are o șansă spre reciclare.',
+            description: '<span style="background-color: #F4B80F; color: white; font-weight: bold; padding: 5px;"><span style="background-color: #F4B80F; color: white; font-weight: bold; padding: 5px;">Pubela galbenă</span></span> pentru deșeuri reciclabile, adică tot ce poate fi recuperat: plastic, metal, Tetra Pak, carton (în lipsa pubelei albastre și în măsura care ambalajul încape în sacul sau <span style="background-color: #F4B80F; color: white; font-weight: bold; padding: 5px;">pubela galbenă</span> – spre exemplu un ambalaj de la pasta de dinți etc.). Dacă ambalajul e curat – nu e îmbibat cu uleiuri, resturi de mâncare sau băuturi, aici intră și are o șansă spre reciclare.',
             overlayImage: 'galben.png',
             location: {
                 center: [12.02595, 49.90885],
@@ -410,7 +410,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: '2.<span style="color: #ffffff; font-weight: bold;">Coșul pentru ambalajele SGR</span> imprimate cu sigla programului, dacă vrei să-ți recapeți garanția de 50 de bani.',
+            description: '<span style="background-color: #F98715; color: white; font-weight: bold; padding: 5px;">Coșul pentru ambalajele SGR</span> imprimate cu sigla programului, dacă vrei să-ți recapeți garanția de 50 de bani.',
             overlayImage: 'sgr.png',
             location: {
                 center: [12.02595, 49.90885],
@@ -444,7 +444,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: '3.<span style="color: #000000; font-weight: bold;">Pubela neagră</span> sau ghena blocului pentru deșeuri menajere, adică tot ce nu poate fi reciclat și este în general, umed: resturi alimentare, scutece și ambalaje de unică folosință - ar trebui să fie cea mai „sărăcăcioasă” și mai mică pubelă din casă. ',
+            description: '<span style="background-color: #000000; color: white; font-weight: bold; padding: 5px;">Pubela neagră</span> sau ghena blocului pentru deșeuri menajere, adică tot ce nu poate fi reciclat și este în general, umed: resturi alimentare, scutece și ambalaje de unică folosință - ar trebui să fie cea mai „sărăcăcioasă” și mai mică pubelă din casă. ',
             overlayImage: 'negru.png',
             location: {
                 center: [12.02595, 49.90885],
@@ -478,8 +478,42 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: '<span style="color: #00819F; font-weight: bold;">Pubela albastră</span> pentru carton și <span style="color: #53FF96; font-weight: bold;">cea verde</span> pentru sticlă nu apar peste tot. În orașele mici sau în zonele cu vile și case cartonul e colectat separat sau vândut de oameni la reciclatori. Pubela maro pentru compost, care implică separarea și recuperarea resturilor alimentare, este și mai puțin implementată. În practică, gunoaiele de-aici tot la menajer și la groapă ajung.',
+            description: '<span style="background-color: #516BBF; color: white; font-weight: bold; padding: 5px;">Pubela albastră</span> pentru carton și cea <span style="background-color: #26881B; color: white; font-weight: bold; padding: 5px;">verde</span> pentru sticlă nu apar peste tot. În orașele mici sau în zonele cu vile și case cartonul e colectat separat sau vândut de oameni la reciclatori.',
             overlayImage: 'albastru.png',
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 1,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+
+        {
+            id: 'cap15maro',
+            daysAgo: 430,
+            showTimeline: false,
+            alignment: 'center',
+            hidden: false,
+            title: '', // Consider adding a title if needed
+            image: '', // Specify if there's a header image for the chapter
+            description: '<span style="background-color: #8B4513; color: white; font-weight: bold; padding: 5px;">Pubela maro</span> pentru compost, care implică separarea și recuperarea resturilor alimentare, este și mai puțin implementată. În practică, gunoaiele de-aici tot la menajer și la groapă ajung.',
+            overlayImage: 'pubcompost.png',
             location: {
                 center: [12.02595, 49.90885],
                 zoom: 1,
@@ -618,7 +652,7 @@ var config = {
             hidden: false,
             title: 'Viitorul PET-ului.', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Vei plăti 50 de bani în plus pe sticlele din plastic marcate cu logoul  Sistemului de Garanție-Returnare (SGR), în vigoare de la finalul lui 2023. Îți vei primi banii înapoi când returnezi recipientele în aparatele speciale deja instalate de hipermarketuri în interior sau în parcare. Trebuie să le duci goale, curate, nedeformate, cu eticheta pe care se află logoul, intactă.',
+            description: ' Plătești 50 de bani în plus pe sticlele din plastic, marcate cu logoul Sistemului de Garanție-Returnare (SGR). Măsura e în vigoare de la finalul lui 2023. Îți vei primi banii înapoi când returnezi recipientele în aparatele speciale deja instalate de hipermarketuri în interior sau în parcare. Trebuie să le duci goale, curate, nedeformate, cu eticheta pe care se află logoul, intactă.',
             overlayImage: 'plastic.gif',
             
             location: {
@@ -654,7 +688,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Aparatul turtește ambalajele, apoi emite un voucher. Deși poți returna PET-urile în alt magazin decât cel de unde le-ai cumpărat, voucherul îl poți cheltui doar unde returnezi sticlele. Ele pot fi în continuare reciclate și la pubela galbenă. Dozele de aluminiu vor trece și ele în sistemul SGR, cu aceleași reguli ca pentru PET-uri și de preferat cu cheița culcată. ',
+            description: 'Aparatul turtește ambalajele, apoi emite un voucher. Deși poți returna PET-urile în alt magazin decât cel de unde le-ai cumpărat, voucherul îl poți cheltui doar unde returnezi sticlele. Ele pot fi în continuare reciclate și la <span style="background-color: #F4B80F; color: white; font-weight: bold; padding: 5px;">pubela galbenă</span>, doar că pierzi banii de garanție.. Dozele de aluminiu vor trece și ele în sistemul SGR, cu aceleași reguli ca pentru PET-uri și de preferat cu cheița culcată. ',
             overlayImage: 'plastic.gif',
             
             location: {
@@ -743,7 +777,7 @@ var config = {
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
             overlayImage: 'reciclare.gif',
-            description: 'Până atunci, toate vor merge în continuare la pubela galbenă de reciclabile, cu dopul pus, după ce au fost clătite și aplatizate. Gândirea e una comunitară – încerci să ocupi cât mai puțin spațiu în pubela blocului, ca să aibă toată lumea loc. Altfel, „colectăm aer”, spune Raul Pop, manager de programe în cadrul ONG-ului Ecoteca. ',
+            description: 'Până atunci, toate vor merge în continuare la <span style="background-color: #F4B80F; color: white; font-weight: bold; padding: 5px;">pubela galbenă</span> de reciclabile, cu dopul pus, după ce au fost clătite și aplatizate. Gândirea e una comunitară – încerci să ocupi cât mai puțin spațiu în pubela blocului, ca să aibă toată lumea loc. Altfel, „colectăm aer”, spune Raul Pop, manager de programe în cadrul ONG-ului Ecoteca. ',
             
             location: {
                 center: [31.2718321, 49.4871968],
@@ -781,8 +815,8 @@ var config = {
             hidden: false,
             title: 'Sticla', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'În unele orașe se colectează în clopote verzi. Românii nu o separă încă pe culori, cum fac alte țări, așa că poți arunca aici sticle și borcane de orice fel. Încearcă să nu le spargi. Asta va ușura munca celor care sortează sticla pe culori și-i va ține departe de tăieturi. Urmărește eticheta unor sticle de vin sau băuturi răcoritoare, în caz că sunt integrate în SGR. ',
-            overlayImage: 'clopotgalben.png',
+            description: 'În unele orașe, se colectează în clopote verzi. Românii nu o separă încă pe culori, cum fac alte țări, așa că poți arunca aici sticle și borcane de orice fel. Încearcă să nu le spargi. Asta va ușura munca celor care sortează sticla pe culori și-i va ține departe de tăieturi. Urmărește eticheta unor sticle de vin sau băuturi răcoritoare, în caz că sunt integrate în SGR. ',
+            overlayImage: 'clopotverde.png',
             location: {
                 center: [31.2718321, 49.4871968],
                 zoom: 6,
@@ -885,7 +919,7 @@ var config = {
             hidden: false,
             title: 'Cutiile Tetra Pak', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: '<a href="https://hartareciclarii.ro/material/tetrapak-cutii-de-lapte-suc/" target="_blank">Cutiile Tetra Pak</a> au în compoziție și carton, și plastic, și aluminiu, ceea ce le face unul dintre cele mai sofisticate ambalaje de pe piață. Se clătesc, se aplatizează, li se pune dopul și se aruncă în pubela galbenă. ',
+            description: '<a href="https://hartareciclarii.ro/material/tetrapak-cutii-de-lapte-suc/" target="_blank">Cutiile Tetra Pak</a> au în compoziție și carton, și plastic, și aluminiu, ceea ce le face unul dintre cele mai sofisticate ambalaje de pe piață. Se clătesc, se aplatizează, li se pune dopul și se aruncă în <span style="background-color: #F4B80F; color: white; font-weight: bold; padding: 5px;">pubela galbenă</span>. ',
             overlayImage: 'tetra.png',
             location: {
                 center: [12.02595, 49.90885],
@@ -1256,7 +1290,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Resturile de textilele și bureți sunt incinerate la fabricile de ciment. Înlocuiesc, astfel, combustibili clasici precum petrolul și cărbunele. Ca soluție temporară, poate ajută să știi că la Ikea poți <a href="https://www.ikea.com/ro/ro/customer-service/services/buy-back/" target="_blank">vinde</a> din mobila folosită și poți cumpăra obiecte cu mici defecte sau second-hand, la prețuri mai mici, prin <a href="https://www.ikea.com/ro/ro/stores/circular-hub-pub1d9516e1" target="_blank">Atelierul de circularitate.</a> ',
+            description: 'Resturile de textile și bureți sunt incinerate la fabricile de ciment. Înlocuiesc, astfel, combustibili clasici precum petrolul și cărbunele. Ca soluție temporară, poate ajută să știi că la Ikea poți <a href="https://www.ikea.com/ro/ro/customer-service/services/buy-back/" target="_blank">vinde</a> din mobila folosită (cumpărată de la ei) și poți cumpăra obiecte cu mici defecte sau second-hand, la prețuri mai mici, prin <a href="https://www.ikea.com/ro/ro/stores/circular-hub-pub1d9516e1" target="_blank">Atelierul de circularitate.</a> ',
             overlayImage: 'mobila.png',
             location: {
                 center: [12.02595, 49.90885],
@@ -1630,7 +1664,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: '„Este necesar să ne schimbăm obiceiurile de consum: să împrumutăm, să închiriem, să folosim în comun, să refolosim, să reparăm. Adică să adoptăm tot mai mult un stil de viață bazat pe o economie circulară”, explică activistul de mediu Raul Pop. ',
+            description: '„Este necesar să ne schimbăm obiceiurile de consum: să împrumutăm, să închiriem, să folosim în comun, să refolosim, să reparăm. Adică să adoptăm tot mai mult un stil de viață bazat pe o economie circulară”, explică specialistul Raul Pop. ',
             overlayImage: 'circularitate.png',
             location: {
                 center: [12.02595, 49.90885],
@@ -1732,7 +1766,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Reciclarea este de fapt, ultima treaptă pe scara priorităților. Mai întâi ar trebui să integrăm în viețile noastre celelalte principii ale „Re-ului": reducere, refolosire, reparare. Astfel, pubelele vor fi mai goale.',
+            description: 'Reciclarea este, de fapt, ultima treaptă pe scara priorităților. Mai întâi, ar trebui să integrăm în viețile noastre celelalte principii ale „Re-ului": reducere, refolosire, reparare. Astfel, pubelele vor fi mai goale.',
             overlayImage: 'circularitate.png',
             location: {
                 center: [12.02595, 49.90885],

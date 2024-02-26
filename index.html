@@ -216,12 +216,14 @@
             right: 10px;
             z-index: 1000;
             text-align: right;
+            background-color: #76C26D;
             color: white; /* Ensure text is white for better visibility */
         }
 
         #iconMenuContainer p {
             margin: 0 0 20px; /* Adjusted for mobile first */
-            color: white; /* Text color */
+            color: white;
+            background-color: #76C26D;/* Text color */
         }
 
         #iconMenu a {
@@ -257,12 +259,6 @@
 <!-- Add this inside your body tag, above the map container -->
 
 <div id="map"></div>
-<div id="imageOverlay">
-    <img id="fullscreenImage" src="blank.png" >
-</div>
-
-<div id="mapInset"></div>
-<div id="story"></div>
 <div style="position: fixed; top: 10px; right: 10px; z-index: 1000; text-align: right;">
     <p style="margin: 0 0 30px; color: white;">Click pe tipul de pubelă pentru detalii</p></div>
 
@@ -271,7 +267,16 @@
     <a href="#cap13sgr" title="Pubela sgr"><img src="pubsgr.png" alt="Pubela sgr"></a>
     <a href="#cap14" title="Pubela neagra"><img src="pubnegru.png" alt="Pubela neagra"></a>
     <a href="#cap15" title="Pubela albastra"><img src="pubalbastra.png" alt="Pubela albastra"></a>
+    <a href="#cap15" title="Pubela verde"><img src="pubverde.png" alt="Pubela albastra"></a>
+    <a href="#cap15maro" title="Pubela verde"><img src="pumaro.png" alt="Pubela albastra"></a>
 </div>
+<div id="imageOverlay">
+    <img id="fullscreenImage" src="blank.png" >
+</div>
+
+<div id="mapInset"></div>
+<div id="story"></div>
+
 
 <div id="horizontalScrollSection" class="horizontal-scroll">
     <div id="horizontalContent"></div> <!-- This will hold the horizontally scrolling content -->
@@ -651,6 +656,8 @@
         });
     });
 });
+
+
 
 
 
